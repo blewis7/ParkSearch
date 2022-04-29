@@ -1,0 +1,21 @@
+nav {
+    padding-top: 20px;
+}
+
+nav a {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.search-parks {
+    font-size: 1rem;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.search-parks:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}

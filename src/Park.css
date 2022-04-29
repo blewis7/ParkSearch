@@ -1,0 +1,46 @@
+.park-header {
+    width: 98.9vw;
+    height: 60vh;
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.park-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.park-heading h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.park-heading h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.park-heading h4 {
+    width: 70vw;
+    text-align: center;
+}
+
+.park-heading p {
+    width: 70vw;
+}
+
+.address {
+    margin-bottom: 15px;
+}
+
+small {
+    font-size: large;
+}
+
+.address-line-2 {
+    margin-bottom: 20px;
+}
