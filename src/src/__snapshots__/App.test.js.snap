@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-light justify-content-between sticky-top lg"
+    style="background-color: rgb(227, 242, 253);"
+  >
+    <a
+      clasnames="navbar-brand"
+    >
+      ParkSearch
+    </a>
+    <a
+      class="search-parks"
+      href="/"
+    >
+      Search Parks
+    </a>
+  </nav>
+  <div
+    class="header"
+    style="background-image: url(forest.png);"
+  />
+  <div
+    class="search"
+  >
+    <h1>
+      <b>
+        Search National Parks
+      </b>
+    </h1>
+    <form>
+      <div
+        class="launch mt-5"
+      >
+        <div
+          class="autocomplete"
+        >
+          <input
+            data-testid="my-input"
+            placeholder="Search by State Code (ex: CA) or Park Name"
+            type="text"
+            value=""
+          />
+          <div
+            class="suggestions"
+          />
+        </div>
+        <button
+          class="search-button"
+        >
+          Search
+        </button>
+      </div>
+    </form>
+  </div>
+  <div
+    class="search-results"
+  />
+</DocumentFragment>
+`;
